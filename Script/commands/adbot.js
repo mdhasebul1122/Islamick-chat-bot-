@@ -61,8 +61,8 @@ module.exports.run = async({api,event,args}) => {
     if (args[0] == "admin") {
       var callback = () => api.sendMessage(
   {body:`———»ADMIN BOT«———
-   ❯ Name: Mr. Alvi Chowdhury 
-   ❯ Facebook: https://www.facebook.com/PINIK.MR.ALVI.XHOWDHURY.YOUR.NEXT.VATAR.XAN
+   ❯ Name: MR.HASIB XAN'S 
+   ❯ Facebook: https://www.facebook.com/hasib62817
    ❯ Thanks for using ${global.config.BOTNAME} bot`,
     attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
